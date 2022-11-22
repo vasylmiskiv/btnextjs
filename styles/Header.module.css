@@ -1,0 +1,26 @@
+.title {
+  color: #000;
+  text-decoration: none;
+  font-size: 60px;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title span {
+  color: #0070f3;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
