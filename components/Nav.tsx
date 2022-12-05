@@ -6,10 +6,10 @@ const Nav = () => {
     <nav className={navStyles.nav}>
     <ul>
       <li>
-        <Link href="/">Homes</Link>
+        <Link href="/" className='hover:text-bubble-gum'>Home</Link>
       </li>
       <li>
-        <Link href="/about">About</Link>
+        <Link href="/about" className='hover:text-bubble-gum'>About</Link>
       </li>
     </ul>
     </nav>

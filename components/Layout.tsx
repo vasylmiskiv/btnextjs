@@ -1,20 +1,21 @@
-import Nav from './Nav';
-import Header from './Header';
-import styles from '../styles/Layout.module.css';
+import Meta from "./Meta";
+import Nav from "./Nav";
+import Header from "./Header";
+import styles from "../styles/Layout.module.css";
 
-const Layout = ({ children }: any) => {
+const Layout = ({ children }: ChildrenProps) => {
   return (
     <>
-    <Nav/>
-    <div className={styles.container}>
-      <main className={styles.main}>
-        <Header />
-        {children}
-      </main>
-    </div>
+      <Meta />
+      <div className="container mx-auto">
+        <Nav />
+        <main className={styles.main}>
+          <Header />
+          {children}
+        </main>
+      </div>
     </>
-    
-  )
-}
+  );
+};
 
 export default Layout;

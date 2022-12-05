@@ -1,5 +1,5 @@
 .title {
-  color: #000;
+  color: rgb(0, 193, 35);
   text-decoration: none;
   font-size: 60px;
 }
@@ -17,10 +17,4 @@
 .title,
 .description {
   text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
 }
